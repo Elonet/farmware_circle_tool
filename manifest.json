@@ -8,7 +8,7 @@
  "url": "https://raw.githubusercontent.com/elonet/farmware_circle_tool/dev/manifest.json",
  "zip": "https://github.com/elonet/farmware_circle_tool/archive/dev.zip",
  "executable": "python",
- "args": ["farmware_circle-dev/main.py"],
+ "args": ["farmware_circle_tool-dev/main.py"],
   "config": [
     {
       "name": "radius",
