@@ -1,0 +1,29 @@
+{
+ "package": "Circle tool",
+ "language": "python",
+ "author": "Elonet.",
+ "description": "Execute circle movement around current position",
+ "version": "1.0.0",
+ "min_os_version_major": 3,
+ "url": "https://raw.githubusercontent.com/elonet/farmware_circle_tool/dev/manifest.json",
+ "zip": "https://github.com/elonet/farmware_circle_tool/archive/dev.zip",
+ "executable": "python",
+ "args": ["farmware_circle-dev/main.py"],
+  "config": [
+    {
+      "name": "radius",
+      "label": "Radius",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "label": "Speed",
+      "value": 800
+    },
+    {
+      "name": "steps",
+      "label": "Steps",
+      "value": 8
+    }
+  ]
+}
